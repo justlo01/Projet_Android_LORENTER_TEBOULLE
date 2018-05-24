@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pbercy">The Parc de Bercy</string>
+    <string name="pmonsouris">The Parc Monsouris</string>
+    <string name="pchaumont">The Parc des Buttes-Chaumont</string>
+    <string name="ptuileries">The Tuileries Gardens</string>
+    <string name="pluxembourg">The Luxembourg Gardens</string>
+    <string name="bienvenue">Hello !</string>
+</resources>

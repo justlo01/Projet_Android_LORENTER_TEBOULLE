@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lorenter.jardinparis.controleur.action"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voici le jardin des Tuileries"
+        android:textSize="30dp"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Le jardin des Tuileries, parfois appelé jardins des Tuileries au pluriel, est un parc parisien du 1er arrondissement créé au XVIe siècle à l'emplacement d'anciennes tuileries qui lui ont donné son nom"
+        android:textSize="10dp"
+        android:padding="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tuileries"
+        android:layout_weight="0.54" />
+
+
+</LinearLayout>

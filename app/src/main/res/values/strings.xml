@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JardinParis</string>
+    <string name="pbercy">Le Parc de Bercy</string>
+    <string name="pmonsouris">Le Parc Monsouris</string>
+    <string name="pchaumont">Le Parc des Buttes-Chaumont</string>
+    <string name="ptuileries">Le Jardin des Tuileries</string>
+    <string name="pluxembourg">Le Jardin du Luxembourg</string>
+    <string name="bienvenue">Bonjour !</string>
+</resources>

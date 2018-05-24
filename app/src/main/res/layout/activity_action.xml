@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lorenter.jardinparis.controleur.action"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voici le parc du Luxembourg"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Le jardin du Luxembourg est un jardin ouvert au public, situé dans le 6e arrondissement de Paris. Créé en 1612 à la demande de Marie de Médicis pour accompagner le palais du Luxembourg1, il a fait l'objet d'une restauration dirigée par l'architecte Jean-François-Thérèse Chalgrin sous le Premier Empire et appartient désormais au domaine du Sénat. Il s'étend sur 23 hectares "
+        android:textSize="10dp"
+        android:padding="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/im1"
+        android:layout_weight="0.54" />
+
+
+</LinearLayout>

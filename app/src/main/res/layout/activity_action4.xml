@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lorenter.jardinparis.controleur.action"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voici le parc Montsouris"
+        android:textSize="30dp"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Le parc Montsouris est un jardin public situé dans le quartier du même nom, dans le sud de Paris, dans le 14e arrondissement. Pendant méridional du parc des Buttes-Chaumont, ce parc à l'anglaise aménagé à la fin du XIXe siècle s'étend sur 15 hectares. Il est planté de nombreuses espèces végétales et abrite un grand nombre d'espèces d'oiseaux."
+        android:textSize="10dp"
+        android:padding="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/montsouris"
+        android:layout_weight="0.54" />
+
+
+</LinearLayout>

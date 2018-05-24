@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lorenter.jardinparis.controleur.action"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voici le parc de Bercy"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Le parc de Bercy est un ensemble de trois jardins situés dans le quartier de Bercy du 12e arrondissement de Paris, entre Bercy Arena et le centre commercial et de restauration Bercy Village, à l'emplacement des anciens entrepôts de Bercy. Avec ses 14 hectares, le parc de Bercy est un des plus importants de la capitale."
+        android:textSize="10dp"
+        android:padding="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bercy"
+        android:layout_weight="0.54" />
+
+
+</LinearLayout>

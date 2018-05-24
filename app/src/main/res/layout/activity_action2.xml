@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lorenter.jardinparis.controleur.action"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voici les Buttes-Chaumont"
+        android:textSize="30dp"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Le parc des Buttes-Chaumont est un jardin public situé dans le nord-est de Paris, en France, dans le 19e arrondissement de la ville. Avec près de 25 hectares, le parc est l'un des plus grands espaces verts de Paris. Inauguré en 1867 pendant les dernières années du règne de Napoléon III"
+        android:textSize="10dp"
+        android:padding="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/chaumont"
+        android:layout_weight="0.54" />
+
+
+</LinearLayout>
